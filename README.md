@@ -8,14 +8,14 @@
 
 - [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
 
-- Developed by pouria farahani
+- Developed by Mahsa sahraei
 
-- Created - 2022-11-26
+- Created - 2025-04-25
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css
 
-- Hooks Used : useState 
+
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
+- How to reach me : with my [instagram](https://www.instagram.com/mahsacodes?igsh=b3o4NXE4d25tYmli) and [linkedin](https://www.linkedin.com/in/mahsa-sahraei-155285320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
