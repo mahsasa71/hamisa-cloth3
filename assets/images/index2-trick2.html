@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.903);
+        }
+
+        .image {
+            width: 300px;
+            height: 450px;
+            margin: 150px auto;
+            position: relative;
+
+            &:hover {
+                >img {
+                    &:nth-of-type(1) {
+                        transform: perspective(700px) rotateX(30deg);
+                    }
+
+                    &:nth-of-type(2) {
+                        bottom: 50px;
+                    }
+
+                    &:nth-of-type(3) {
+                        bottom: 80px;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            >img {
+                position: absolute;
+
+                &:nth-of-type(1) {
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.6s;
+                }
+
+                &:nth-of-type(2) {
+                    width: 70%;
+                    bottom: 0;
+                    left: 15%;
+                    transition: 1s;
+                    z-index: 500;
+                }
+
+                &:nth-of-type(3) {
+                    width: 90%;
+                    height: 100%;
+                    left: 5%;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: 0.8s;
+                }
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+        <img src="img/dark_rider-cover.jpg" alt="">
+        <img src="img/dark_rider-title.png" alt="">
+        <img src="img/dark_rider-character.webp" alt="">
+
+    </div>
+</body>
+
+</html>
